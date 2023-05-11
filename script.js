@@ -14,7 +14,17 @@ function rot13(encodedStr){
    let decodedArr = []; // Your Result goes here
   // Only change code below this line
 
-  return ;//return decodedArr
+	//length of the String
+	n = encodedStr.length;
+
+	for(i=0;i<n;i++){
+		ch = encodedStr.charAt(i);
+		decodedArr[i] = lookup.ch;
+	}
+
+	console.log(decodedArr);
+
+  // return decodedArr;//return decodedArr
 }
 
 // You can test your code by running the above function and printing it to console by pressing the run button at the top. To run it with input 36, uncomment the following line
